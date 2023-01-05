@@ -1,6 +1,6 @@
 node {   
     stage('Build image') {
-       dockerImage = docker.build("Test/my-react-app:latest")
+       dockerImage = docker.build("test/my-react-app:latest")
     }
     
  stage('Push image') {
